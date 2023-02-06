@@ -1,0 +1,19 @@
+body {
+    background-color: #03001C;
+    color: #B6EADA;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: #5B8FB9;
+}
+
+h1 {
+    font-family: Garamond;
+    font-size: 45px;
+}
+
+.Center {
+    margin: auto;
+    width: 50%;
+}

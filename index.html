@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html>
+<head>
+    <link rel="stylesheet" href="style.css">
+</head>
 
-<!-- TODO: Replace Mr. Miyamoto's name with yours -->
-<h1>The Portfolio of Shigeru Miyamoto</h1>
+<body>
+    <div class="Center">
+        <h1>The Portfolio of Jacob Gettig</h1>
 
-<h2>Projects</h2>
+        <h2>Metroid NES Unity Remaster</h2>
+        
+        <a href="./Web Build/index.html">Play Web Build</a>
+        
+        <h3>About:</h3>
+        <p>This is a remaster of the first area in the original <em>Metroid</em> game for the Nintendo Entertainment System. 
+            It also includes a custom level which features five new rooms and multiple mechanics centered around using a trampoline power-up</p>
+        
+        &nbsp;
+        
+        <h3>My Contributions:</h3>
+        <p>Work was done in collaboration with <a href="https://calebgif.github.io/">Caleb Gifford</a>.</p>
+        <p>I implemented every enemy in the game and handled most bugfixes for them. This was the majority of my work. I also implemented doors and room transitions, and created the logic behind our custom trampoline object</p>
+        <p>Beyond what was required in the project. I also headed up researching how enemy spawn mechanics and health and missile drop mechanics worked in the original game, 
+            even going as far as to read some of the original 6502 assembly code. Using the information I gathered, we were able to faithfully create a system where enemies 
+            are spawned and placed in one of six RAM slots specified by their spawn location. Each RAM slot can only hold a single enemy, so this creates an especially authentic 
+            experience where certain enemies will not spawn if others already have.</p>
+        
+        &nbsp;
+        
+        <h3>Technology/Tools Used:</h3>
+        <p>This project created in Unity and coded in C#. This was our first major Unity project experience. We used Atlassian's Jira software for project management, and specifically
+            made use of their burndown charts to guage how well we were avoiding burnout. We also used various other tools, such as GitHub for version control,
+            Photoshop and Paint3D for spritesheet editing. I also delved into the world of online speedrunning and ROM hacking in order to research some of the original game's mechanics.
+            Finally, the web build embedded in this site is hosted on Itch.io.
+        </p>
 
-<!-- TODO: Erase one of these two. Replace the 'href' link below with a link to your WebGL build page. -->
-<ul>
-<li><a href="https://cdn.destructoid.com//ul/317824-zelda%20memes.jpg">The Legend of Zelda (Unity Remaster)</a></li>
-<li><a href="https://pre00.deviantart.net/4fa1/th/pre/i/2010/254/0/4/chibi_metroid_by_freak_sider-d2yhe9u.png">Metroid (Unity Remaster)</a></li>
-</ul>
+        &nbsp;
 
-<!-- TIP: Rename this file "index.html", and it will become the default landing page whenever someone navigates their browser to your domain. -->
+        <h3>Research:</h3>
+        <p>
+            In completing this Metroid recreation, we an online NES emulator, a real NES at the Shapiro Library CVGA, and youtube videos of NES to get all features as authentic as possible. 
+            We also researched other NES games and compared them to Metroid to better understand the mechanics of Metroid and how to make compelling mechanics or our own.
+        </p>
+    </div>
+</body>
+
 </html>
