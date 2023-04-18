@@ -13,6 +13,10 @@ h1 {
     font-size: 45px;
 }
 
+h1 a {
+    color: #B6EADA;
+}
+
 .Center {
     margin: auto;
     width: 50%;
